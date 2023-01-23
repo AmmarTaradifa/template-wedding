@@ -534,6 +534,18 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: 38px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  #overlay .content .couple-main {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  #overlay .content .couple-main {
+    width: 150px;
+  }
+}
 #overlay .content .fh5co-heading {
   margin-bottom: 10px;
 }
