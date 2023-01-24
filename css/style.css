@@ -468,6 +468,15 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .couple-main {
   width: 400px;
 }
+
+#fh5co-header .centered {
+  position: absolute;
+  top: 55%;
+  font-family: "Satisfy", Arial, serif;
+  left: 50%;
+  font-size: 48px;
+  transform: translate(-50%, -50%);
+}
 @media screen and (max-width: 480px) {
   #fh5co-header .couple-main {
     width: 250px;
@@ -521,6 +530,16 @@ h1, h2, h3, h4, h5, h6, figure {
 #overlay .content .couple-main {
   width: 350px;
 }
+
+#overlay .content .centered {
+  position: absolute;
+  top: 55%;
+  font-family: "Satisfy", Arial, serif;
+  left: 50%;
+  font-size: 48px;
+  transform: translate(-50%, -50%);
+}
+
 #overlay .content h1 {
   font-size: 48px;
   margin-bottom: 10px;
