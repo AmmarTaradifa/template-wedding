@@ -558,6 +558,10 @@ h1, h2, h3, h4, h5, h6, figure {
   #overlay .content .couple-main {
     width: 200px;
   }
+
+  #overlay .content .centered {
+    font-size: 33px;
+  }
 }
 
 @media screen and (max-width: 200px) {
